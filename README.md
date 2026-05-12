@@ -112,6 +112,10 @@ Hospitals with high nurse communication ratings (4-5 stars) averaged VBP scores 
 
 VBP extends beyond patient satisfaction alone. It incorporates clinical outcomes, efficiency, safety, and patient experience. This suggests nurse communication quality aligns with broader operational and care coordination performance, not simply perception metrics in isolation.
 
+![Nurse Communication vs VBP Performance](outputs/figures/08_nurse_comm_vbp_scatter.png)
+
+---
+
 ### 2. Relationship with Readmissions Remains Consistent
 
 The relationship identified in the previous project remained directionally consistent here. Hospitals with stronger nurse communication ratings tended to maintain lower excess readmission ratios, particularly for chronic medical conditions where discharge comprehension and self-management matter most.
@@ -123,6 +127,8 @@ The relationship identified in the previous project remained directionally consi
 | High (4-5 stars) | 0.994 |
 
 Only high communication hospitals remained below the operationally meaningful 1.0 threshold on average.
+
+---
 
 ### 3. HAC Penalties Showed Little Relationship with Communication
 
@@ -136,6 +142,8 @@ Unlike VBP and readmissions, HAC penalties showed minimal variation across nurse
 
 This distinction is operationally meaningful. Hospital-acquired infections, falls, and procedural safety failures are driven more heavily by infection control systems, staffing processes, and clinical protocol execution. The weak relationship suggests nurse communication quality primarily connects to patient-facing coordination and recovery processes rather than protocol-driven safety events.
 
+---
+
 ### 4. CMS Penalty Exposure Across 2,422 U.S. Hospitals
 
 A secondary analysis examined how many hospitals were simultaneously exposed to multiple CMS quality and reimbursement programs.
@@ -148,6 +156,8 @@ A secondary analysis examined how many hospitals were simultaneously exposed to 
 | Triple Exposure (3 programs) | 337 | 13.9% |
 
 93.2% of hospitals in the dataset were exposed to at least one federal reimbursement adjustment or penalty program during FY 2026.
+
+![CMS Penalty Exposure Distribution](outputs/figures/01_composite_risk_distribution.png)
 
 ---
 
